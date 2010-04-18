@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<flexLibProperties includeAllClasses="true" version="3">
+  <includeClasses>
+    <classEntry path="com.asual.swfaddress.SWFAddress"/>
+    <classEntry path="com.asual.swfaddress.SWFAddressEvent"/>
+    <classEntry path="com.millermedeiros.swffit.SWFFit"/>
+    <classEntry path="com.millermedeiros.swffit.SWFFitEvent"/>
+    <classEntry path="fr.wedesign.web.events.PageEvent"/>
+    <classEntry path="fr.wedesign.web.model.Page"/>
+    <classEntry path="fr.wedesign.web.services.PageService"/>
+    <classEntry path="fr.wedesign.web.WebConfig"/>
+    <classEntry path="fr.wedesign.web.actions.LoadPage"/>
+    <classEntry path="fr.wedesign.drupal6.x.services2.x.NodeService"/>
+    <classEntry path="fr.wedesign.drupal6.x.events.NodeEvent"/>
+    <classEntry path="fr.wedesign.drupal6.x.model.Node"/>
+    <classEntry path="fr.wedesign.drupal6.x.model.Story"/>
+    <classEntry path="fr.wedesign.drupal6.x.model.Page"/>
+    <classEntry path="fr.wedesign.drupal6.x.services2.x.ViewsService"/>
+    <classEntry path="fr.wedesign.drupal6.x.events.ViewsEvent"/>
+    <classEntry path="fr.wedesign.drupal6.x.model.cck.FileField"/>
+  </includeClasses>
+  <includeResources/>
+  <namespaceManifests/>
+</flexLibProperties>
