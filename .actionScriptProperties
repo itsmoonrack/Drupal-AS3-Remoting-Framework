@@ -2,7 +2,7 @@
 <actionScriptProperties mainApplicationPath="Web Framework.as" projectUUID="7b1887e3-235a-4968-863f-0244bc3ca661" version="6">
   <compiler additionalCompilerArguments="-locale fr_FR" autoRSLOrdering="true" copyDependentFiles="false" fteInMXComponents="false" generateAccessible="false" htmlExpressInstall="true" htmlGenerate="false" htmlHistoryManagement="false" htmlPlayerVersionCheck="true" includeNetmonSwc="false" outputFolderPath="bin" sourceFolderPath="test" strict="true" targetPlayerVersion="0.0.0" useApolloConfig="false" useDebugRSLSwfs="true" verifyDigests="true" warn="true">
     <compilerSourcePath>
-      <compilerSourcePathEntry kind="1" linkType="1" path="drupal6"/>
+      <compilerSourcePathEntry kind="1" linkType="1" path="drupal"/>
       <compilerSourcePathEntry kind="1" linkType="1" path="site"/>
     </compilerSourcePath>
     <libraryPath defaultLinkType="0">

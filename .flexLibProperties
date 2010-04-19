@@ -5,19 +5,11 @@
     <classEntry path="com.asual.swfaddress.SWFAddressEvent"/>
     <classEntry path="com.millermedeiros.swffit.SWFFit"/>
     <classEntry path="com.millermedeiros.swffit.SWFFitEvent"/>
+    <classEntry path="fr.wedesign.web.WebConfig"/>
+    <classEntry path="fr.wedesign.web.actions.LoadPage"/>
     <classEntry path="fr.wedesign.web.events.PageEvent"/>
     <classEntry path="fr.wedesign.web.model.Page"/>
     <classEntry path="fr.wedesign.web.services.PageService"/>
-    <classEntry path="fr.wedesign.web.WebConfig"/>
-    <classEntry path="fr.wedesign.web.actions.LoadPage"/>
-    <classEntry path="org.drupal.services.v2.NodeService"/>
-    <classEntry path="org.drupal.v6.events.NodeEvent"/>
-    <classEntry path="org.drupal.v6.model.Node"/>
-    <classEntry path="org.drupal.v6.model.Story"/>
-    <classEntry path="org.drupal.v6.model.Page"/>
-    <classEntry path="org.drupal.services.v2.ViewsService"/>
-    <classEntry path="org.drupal.v6.events.ViewsEvent"/>
-    <classEntry path="org.drupal.v6.model.cck.FileField"/>
   </includeClasses>
   <includeResources/>
   <namespaceManifests/>
