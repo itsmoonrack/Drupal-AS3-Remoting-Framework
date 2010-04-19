@@ -10,6 +10,7 @@
     <classEntry path="fr.wedesign.web.events.PageEvent"/>
     <classEntry path="fr.wedesign.web.model.Page"/>
     <classEntry path="fr.wedesign.web.services.PageService"/>
+    <classEntry path="fr.wedesign.web.model.Site"/>
   </includeClasses>
   <includeResources/>
   <namespaceManifests/>
