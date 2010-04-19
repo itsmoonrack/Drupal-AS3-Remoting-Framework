@@ -3,16 +3,16 @@
  * @class:		fr.wedesign.drupal6.x.services2.x.ViewsService
  * @date:		18 avr. 2010
  */
-package fr.wedesign.drupal6.services2
+package org.drupal.services.v2
 {
 	import flash.events.EventDispatcher;
 	import flash.net.NetConnection;
 	import flash.net.Responder;
 	
-	import fr.wedesign.drupal6.events.ViewsEvent;
+	import org.drupal.v6.events.ViewsEvent;
 	
-	[Event(name="viewsGetResult",type="fr.wedesign.drupal6.events.ViewsEvent")]
-	[Event(name="viewsGetFault",type="fr.wedesign.drupal6.events.ViewsEvent")]
+	[Event(name="viewsGetResult",type="org.drupal.v6.events.ViewsEvent")]
+	[Event(name="viewsGetFault",type="org.drupal.v6.events.ViewsEvent")]
 	[ManagedEvents("viewsGetResult,viewsGetFault")]
 	
 	public class ViewsService extends EventDispatcher

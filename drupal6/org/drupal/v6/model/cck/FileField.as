@@ -3,7 +3,7 @@
  * @class:		fr.wedesign.drupal6.x.model.cck.FileField
  * @date:		18 avr. 2010
  */
-package fr.wedesign.drupal6.model.cck
+package org.drupal.v6.model.cck
 {
 	dynamic public class FileField
 	{

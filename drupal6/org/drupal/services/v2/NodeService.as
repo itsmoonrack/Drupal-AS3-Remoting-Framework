@@ -3,17 +3,17 @@
  * @class:		fr.wedesign.drupal6.x.services2.x.NodeService
  * @date:		18 avr. 2010
  */
-package fr.wedesign.drupal6.services2
+package org.drupal.services.v2
 {
 	import flash.events.EventDispatcher;
 	import flash.net.NetConnection;
 	import flash.net.Responder;
 	
-	import fr.wedesign.drupal6.events.NodeEvent;
-	import fr.wedesign.drupal6.model.Node;
+	import org.drupal.v6.events.NodeEvent;
+	import org.drupal.v6.model.Node;
 	
-	[Event(name="nodeGetResult",type="fr.wedesign.drupal6.events.NodeEvent")]
-	[Event(name="nodeGetFault",type="fr.wedesign.drupal6.events.NodeEvent")]
+	[Event(name="nodeGetResult",type="org.drupal.v6.events.NodeEvent")]
+	[Event(name="nodeGetFault",type="org.drupal.v6.events.NodeEvent")]
 	[ManagedEvents("nodeGetResult,nodeGetFault")]
 	
 	[InjectConstructor]

@@ -3,7 +3,7 @@
  * @class:		fr.wedesign.drupal6.x.model.Node
  * @date:		18 avr. 2010
  */
-package fr.wedesign.drupal6.model
+package org.drupal.v6.model
 {
 
 	public class Node

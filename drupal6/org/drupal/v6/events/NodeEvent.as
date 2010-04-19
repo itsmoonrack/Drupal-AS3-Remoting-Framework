@@ -1,13 +1,13 @@
 /**
  * @author:		Sylvain Lecoy / WeDesign (http://www.wedesign.fr/)
- * @class:		fr.wedesign.drupal6.x.events.NodeEvent
+ * @class:		org.drupal.v6.events.NodeEvent
  * @date:		18 avr. 2010
  */
-package fr.wedesign.drupal6.events
+package org.drupal.v6.events
 {
 	import flash.events.Event;
 	
-	import fr.wedesign.drupal6.model.Node;
+	import org.drupal.v6.model.Node;
 	
 	public class NodeEvent extends Event
 	{
