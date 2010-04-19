@@ -3,7 +3,7 @@
  * @class:		fr.wedesign.drupal6.x.events.ViewsEvent
  * @date:		18 avr. 2010
  */
-package fr.wedesign.drupal6.x.events
+package fr.wedesign.drupal6.events
 {
 	import flash.events.Event;
 	

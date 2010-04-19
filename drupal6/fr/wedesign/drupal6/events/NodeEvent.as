@@ -3,11 +3,11 @@
  * @class:		fr.wedesign.drupal6.x.events.NodeEvent
  * @date:		18 avr. 2010
  */
-package fr.wedesign.drupal6.x.events
+package fr.wedesign.drupal6.events
 {
 	import flash.events.Event;
 	
-	import fr.wedesign.drupal6.x.model.Node;
+	import fr.wedesign.drupal6.model.Node;
 	
 	public class NodeEvent extends Event
 	{

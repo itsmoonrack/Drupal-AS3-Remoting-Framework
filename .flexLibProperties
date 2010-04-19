@@ -10,14 +10,14 @@
     <classEntry path="fr.wedesign.web.services.PageService"/>
     <classEntry path="fr.wedesign.web.WebConfig"/>
     <classEntry path="fr.wedesign.web.actions.LoadPage"/>
-    <classEntry path="fr.wedesign.drupal6.x.services2.x.NodeService"/>
-    <classEntry path="fr.wedesign.drupal6.x.events.NodeEvent"/>
-    <classEntry path="fr.wedesign.drupal6.x.model.Node"/>
-    <classEntry path="fr.wedesign.drupal6.x.model.Story"/>
-    <classEntry path="fr.wedesign.drupal6.x.model.Page"/>
-    <classEntry path="fr.wedesign.drupal6.x.services2.x.ViewsService"/>
-    <classEntry path="fr.wedesign.drupal6.x.events.ViewsEvent"/>
-    <classEntry path="fr.wedesign.drupal6.x.model.cck.FileField"/>
+    <classEntry path="fr.wedesign.drupal6.services2.NodeService"/>
+    <classEntry path="fr.wedesign.drupal6.events.NodeEvent"/>
+    <classEntry path="fr.wedesign.drupal6.model.Node"/>
+    <classEntry path="fr.wedesign.drupal6.model.Story"/>
+    <classEntry path="fr.wedesign.drupal6.model.Page"/>
+    <classEntry path="fr.wedesign.drupal6.services2.ViewsService"/>
+    <classEntry path="fr.wedesign.drupal6.events.ViewsEvent"/>
+    <classEntry path="fr.wedesign.drupal6.model.cck.FileField"/>
   </includeClasses>
   <includeResources/>
   <namespaceManifests/>

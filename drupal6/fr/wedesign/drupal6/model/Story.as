@@ -3,7 +3,7 @@
  * @class:		fr.wedesign.drupal6.x.model.Story
  * @date:		18 avr. 2010
  */
-package fr.wedesign.drupal6.x.model
+package fr.wedesign.drupal6.model
 {
 	import flash.net.registerClassAlias;
 
