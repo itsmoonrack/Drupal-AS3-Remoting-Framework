@@ -5,12 +5,19 @@
     <classEntry path="com.asual.swfaddress.SWFAddressEvent"/>
     <classEntry path="com.millermedeiros.swffit.SWFFit"/>
     <classEntry path="com.millermedeiros.swffit.SWFFitEvent"/>
-    <classEntry path="fr.wedesign.web.WebConfig"/>
-    <classEntry path="fr.wedesign.web.actions.LoadPage"/>
+    <classEntry path="fr.wedesign.web.core.IPage"/>
+    <classEntry path="fr.wedesign.web.core.IPageService"/>
+    <classEntry path="fr.wedesign.web.core.ISite"/>
     <classEntry path="fr.wedesign.web.events.PageEvent"/>
     <classEntry path="fr.wedesign.web.model.Page"/>
-    <classEntry path="fr.wedesign.web.services.PageService"/>
-    <classEntry path="fr.wedesign.web.model.Site"/>
+    <classEntry path="fr.wedesign.web.models.PageProxy"/>
+    <classEntry path="fr.wedesign.web.base.PageService"/>
+    <classEntry path="fr.wedesign.web.base.SiteContext"/>
+    <classEntry path="fr.wedesign.web.base.ChangePageCommand"/>
+    <classEntry path="fr.wedesign.web.mvcs.SiteMediator"/>
+    <classEntry path="fr.wedesign.web.core.IAddressModel"/>
+    <classEntry path="fr.wedesign.web.mvcs.SWFAddressModel"/>
+    <classEntry path="fr.wedesign.web.events.AddressEvent"/>
   </includeClasses>
   <includeResources/>
   <namespaceManifests/>

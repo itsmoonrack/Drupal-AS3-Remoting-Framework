@@ -29,7 +29,7 @@ package org.drupal.services.v2
 		/**
 		 * Returns a node data.
 		 */
-		public function getNode(nid:Number, fields:Array = null):void
+		public function getNode(nid:uint, fields:Array = null):void
 		{
 			_connection.call('node.get', new Responder(handleNodeResult), nid, fields);
 		}

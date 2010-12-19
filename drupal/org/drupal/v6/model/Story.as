@@ -7,7 +7,7 @@ package org.drupal.v6.model
 {
 	import flash.net.registerClassAlias;
 
-	registerClassAlias("story", Node);
+	registerClassAlias("story", Story);
 	[RemoteClass(alias="story")]
 	dynamic public class Story extends Node
 	{
