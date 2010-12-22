@@ -1,23 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <flexLibProperties includeAllClasses="true" version="3">
   <includeClasses>
+    <classEntry path="org.drupal.services.v2.NodeService"/>
+    <classEntry path="org.drupal.services.v2.ViewsService"/>
+    <classEntry path="org.drupal.v6.events.NodeEvent"/>
+    <classEntry path="org.drupal.v6.events.ViewsEvent"/>
+    <classEntry path="org.drupal.v6.model.Node"/>
+    <classEntry path="org.drupal.v6.model.Page"/>
+    <classEntry path="org.drupal.v6.model.Story"/>
+    <classEntry path="org.drupal.v6.model.cck.FileField"/>
     <classEntry path="com.asual.swfaddress.SWFAddress"/>
     <classEntry path="com.asual.swfaddress.SWFAddressEvent"/>
     <classEntry path="com.millermedeiros.swffit.SWFFit"/>
     <classEntry path="com.millermedeiros.swffit.SWFFitEvent"/>
+    <classEntry path="fr.wedesign.web.base.AddPageCommand"/>
+    <classEntry path="fr.wedesign.web.base.ChangePageCommand"/>
+    <classEntry path="fr.wedesign.web.base.PageService"/>
+    <classEntry path="fr.wedesign.web.core.IAddressModel"/>
     <classEntry path="fr.wedesign.web.core.IPage"/>
     <classEntry path="fr.wedesign.web.core.IPageService"/>
-    <classEntry path="fr.wedesign.web.core.ISite"/>
-    <classEntry path="fr.wedesign.web.events.PageEvent"/>
-    <classEntry path="fr.wedesign.web.model.Page"/>
-    <classEntry path="fr.wedesign.web.models.PageProxy"/>
-    <classEntry path="fr.wedesign.web.base.PageService"/>
-    <classEntry path="fr.wedesign.web.base.SiteContext"/>
-    <classEntry path="fr.wedesign.web.base.ChangePageCommand"/>
-    <classEntry path="fr.wedesign.web.mvcs.SiteMediator"/>
-    <classEntry path="fr.wedesign.web.core.IAddressModel"/>
-    <classEntry path="fr.wedesign.web.mvcs.SWFAddressModel"/>
     <classEntry path="fr.wedesign.web.events.AddressEvent"/>
+    <classEntry path="fr.wedesign.web.events.PageEvent"/>
+    <classEntry path="fr.wedesign.web.mvcs.SWFAddressModel"/>
+    <classEntry path="fr.wedesign.web.mvcs.SiteMediator"/>
+    <classEntry path="fr.wedesign.services.XMLRPCConnection"/>
+    <classEntry path="fr.wedesign.services.TestXMLRPC"/>
+    <classEntry path="org.drupal7.services.ISystem"/>
+    <classEntry path="org.drupal7.services.vo.NodeVO"/>
+    <classEntry path="org.drupal7.fields.ImageField"/>
+    <classEntry path="org.drupal7.fields.FileField"/>
+    <classEntry path="org.drupal7.fields.LongTextWithSummaryField"/>
+    <classEntry path="org.drupal7.fields.helpers.NodeParser"/>
+    <classEntry path="org.drupal7.fields.helpers.FileFieldParser"/>
+    <classEntry path="org.drupal7.fields.helpers.ImageFieldParser"/>
+    <classEntry path="org.drupal7.fields.helpers.LongTextWithSummaryParser"/>
   </includeClasses>
   <includeResources/>
   <namespaceManifests/>
