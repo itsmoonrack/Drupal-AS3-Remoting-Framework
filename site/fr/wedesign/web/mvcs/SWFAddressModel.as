@@ -41,8 +41,9 @@ package fr.wedesign.web.mvcs
     
     private function setTargetURI(uriSegments:Array):void
     {
-      uriSegments[0] ||= "home";
-      dispatch(new AddressEvent(AddressEvent.CHANGE_PAGE, uriSegments));
+      if (uriSegments[0]) { //Nothing for home.
+        dispatch(new AddressEvent(AddressEvent.ADDRESS_CHANGED, uriSegments));
+      }
     }
   }
 }

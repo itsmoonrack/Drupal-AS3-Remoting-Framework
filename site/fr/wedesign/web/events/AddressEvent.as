@@ -4,7 +4,7 @@ package fr.wedesign.web.events
   
   public final class AddressEvent extends Event
   {
-    public static const CHANGE_PAGE:String = "changePage";
+    public static const ADDRESS_CHANGED:String = "addressChanged";
     
     private var _uriSegments:Array;
     

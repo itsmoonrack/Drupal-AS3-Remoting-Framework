@@ -2,6 +2,7 @@ package fr.wedesign.web.base
 {
   import flash.display.Loader;
   import flash.events.Event;
+  import flash.events.IOErrorEvent;
   import flash.net.URLRequest;
   import flash.utils.Dictionary;
   
@@ -14,7 +15,7 @@ package fr.wedesign.web.base
   [Event(name="pageChanged",type="fr.wedesign.web.events.PageEvent")]
   [Event(name="pageNotFound",type="fr.wedesign.web.events.PageEvent")]
   
-  internal final class PageService extends Actor implements IPageService
+  public final class PageService extends Actor implements IPageService
   {
     private var basePath:String;
     private var loader:Loader = new Loader();
@@ -23,8 +24,10 @@ package fr.wedesign.web.base
     
     public function PageService(basePath:String = "")
     {
+      trace("Pof");
       this.basePath = basePath;
-      this.loader.contentLoaderInfo.addEventListener(Event.COMPLETE, requestPageComplete);
+      this.loader.contentLoaderInfo.addEventListener(Event.COMPLETE, requestPageSuccess);
+      this.loader.contentLoaderInfo.addEventListener(IOErrorEvent.IO_ERROR, requestPageFault);
     }
     
     // Test with conccurent loading
@@ -46,11 +49,18 @@ package fr.wedesign.web.base
       }
     }
     
-    private function requestPageComplete(e:Event):void
+    private function requestPageSuccess(e:Event):void
     {
       loading = false;
       pageMap[loader.name] = loader.contentLoaderInfo.content as IPage;
       dispatch(new PageEvent("pageChanged", pageMap[loader.name]));
+    }
+    
+    private function requestPageFault(e:IOErrorEvent):void
+    {
+      loading = false;
+      dispatch(new PageEvent("pageNotFound"));
+      requestPage("404NotFound");
     }
   }
 }
